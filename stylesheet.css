@@ -1,0 +1,142 @@
+body{   
+  font-weight: 400, 700;
+  font-family: sans-serif;
+}
+
+.alpha{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+.beta{
+  width:335px;
+  margin-left:470px;
+ }
+
+.gamma{
+  width:335px;
+  margin-right:470px;
+/*   position:relative;
+  left:900px; */
+}
+
+.row{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border-style:none;
+  margin-top:50px;
+  margin-bottom:0;
+  border-radius:10px 10px 0 0;
+  box-shadow: 0px 1px 30px rgba(0, 0, 0, .2);
+  height:270px;
+  width: 670px;
+}
+
+.top-card-body{
+  padding: 40px; 
+}
+
+.join{
+  position:relative;
+  bottom:30px;
+  color:hsl(179, 62%, 43%);
+  font-size:36px;
+}
+
+.tagline{
+  position:relative;
+  bottom:35px;
+  color:hsl(71, 73%, 54%);
+  font-size:20px;
+}
+
+.gain{
+  position:relative;
+  bottom:30px;
+  color:hsl(218, 22%, 67%);
+  font-size:16px;
+  line-height:150%;
+}
+
+
+.left-card{
+  background-color:hsl(179, 62%, 43%);
+  position:relative;
+  border-radius:0 0 0 10px;
+  height:240px;
+  box-shadow: 0px 1px 30px rgba(0, 0, 0, .2); 
+  padding-left:50px;
+  padding-top:40px;
+}
+
+.monthly{
+  Color:#fff;
+}
+
+.dollar-amount{
+  color:#fff;
+  font-size:30px;
+  font-weight:780;
+}
+
+.per{
+  color:hsl(204, 43%, 82%);
+}
+
+.access{
+  font-size:14px;
+  color:hsl(204, 43%, 93%);
+}
+
+.sign-up{
+  background-color:hsl(71, 73%, 54%);
+  border-radius:5px;
+  width:240px;
+  height:45px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  box-shadow: 5px 1px 30px rgba(0, 0, 0, .2); 
+}
+
+.sign-text{
+  color:#fff;
+}
+
+.why-card{
+  background-color:#4ABEBD;
+  position:relative;
+  left:805px;
+  padding:40px;
+  bottom:280px;
+  height:200px;
+  border-radius:0 0 10px 0;
+  box-shadow: 5px 1px 30px rgba(0, 0, 0, .2);
+}
+
+.why-header{
+  color:#fff;
+}
+.why-us{
+  color:#95DDE3;
+  padding-right:20px;
+}
+
+footer{
+  display:flex;
+  align-content:center;
+  Justify-content:center;
+  font-size:12px;
+}
+
+a{
+  text-decoration:none;
+  color:#3B3B3B;
+}
+
+a:hover{
+  color:#36E0CF;
+}
